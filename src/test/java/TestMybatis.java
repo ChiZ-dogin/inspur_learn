@@ -1,3 +1,13 @@
+import org.testng.annotations.Test;
+import projtest.mapper.PersonMapper;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+/*
+测一个对象sqlSession，需要通过sqlSessionFactor（）对象才能创建sqlSession。
+sqlSessionFactor（）需要通过sqlSessionFactor（）Builder（）来创建出来。
+ */
 public class TestMybatis {
     @Test
     public void testHelloWorld() throws IOException {
